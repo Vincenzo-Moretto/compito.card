@@ -1,0 +1,98 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-color: gray;
+}
+
+.Card {
+  /*border: 5px solid rgb(0, 0, 0); /*/
+  width: 350px;
+  height: 474px;
+  position: relative;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  border-radius: 3%;
+  box-shadow: 0 0 7px rgba(14, 13, 13, 0.521);
+  cursor: wait;
+  overflow: hidden;
+}
+
+.Card img {
+  width: 100%;
+  height: auto;
+}
+.Card:hover {
+  opacity: 2%;
+}
+
+.Fack-save {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  position: absolute;
+  top: -60px;
+  left: 248px;
+  width: 20%;
+  text-align: center;
+  /* border: 1px solid rgb(0, 0, 0); /*  */
+  border-radius: 40%;
+  overflow: hidden;
+}
+
+.Card:hover .Fack-save {
+  transform: translateY(100px);
+  transition: 2s;
+}
+
+.Fack-btn {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 485px;
+  left: 25px;
+  width: 45%;
+  text-align: center;
+  /* border: 1px solid rgb(0, 0, 0); /*  */
+  border-radius: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Card:hover .Fack-btn {
+  transform: translateY(-90px);
+  transition: 2s;
+}
+
+.fa-solid {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 485px;
+  left: 200px;
+  width: 4%;
+  text-align: center;
+  /* border: 1px solid rgb(0, 0, 0); /*  */
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+.Card:hover .fa-solid {
+  transform: translateY(-90px);
+  transition: 2s;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 250px;
+  position: absolute;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+  top: 485px;
+  left: 270px;
+}
+.Card:hover button {
+  transform: translateY(-90px);
+  transition: 2s;
+}
